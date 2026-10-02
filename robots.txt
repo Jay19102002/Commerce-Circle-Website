@@ -1,0 +1,6 @@
+# robots.txt for Commerce Circle Raigarh
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://jay19102002.github.io/Commerce-Circle-Website/sitemap.xml

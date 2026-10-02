@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+    <url>
+        <loc>https://jay19102002.github.io/Commerce-Circle-Website/</loc>
+        <lastmod>2026-10-02</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://jay19102002.github.io/Commerce-Circle-Website/images/cc2.png</image:loc>
+            <image:title>Commerce Circle Raigarh Logo</image:title>
+            <image:caption>Commerce Circle - Best Commerce Coaching in Raigarh for Class 11, 12, CA, CMA and CS</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://jay19102002.github.io/Commerce-Circle-Website/images/upen.jpg</image:loc>
+            <image:title>CA Upendra Sahu - Founder and Lead Mentor at Commerce Circle</image:title>
+            <image:caption>CA Upendra Sahu founder of Commerce Circle Raigarh</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://jay19102002.github.io/Commerce-Circle-Website/images/CBSE%2012%20topper.jpg</image:loc>
+            <image:title>Commerce Circle Class 12 CBSE Board Students</image:title>
+            <image:caption>Commerce Circle Raigarh Students and Toppers</image:caption>
+        </image:image>
+        <image:image>
+            <image:loc>https://jay19102002.github.io/Commerce-Circle-Website/images/12%20board%20district%20topper%202025.jpg</image:loc>
+            <image:title>Raigarh District Topper 2025 - Commerce Circle</image:title>
+            <image:caption>Raigarh District Topper CBSE 12th Board Result 2025</image:caption>
+        </image:image>
+    </url>
+</urlset>
