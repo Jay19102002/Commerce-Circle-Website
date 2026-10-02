@@ -1,0 +1,1493 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Commerce Circle Raigarh | Commerce Coaching for Class 11, 12, CA, CMA & CS</title>
+    <meta name="description"
+        content="Commerce Circle is a commerce coaching and learning center in Raigarh, Chhattisgarh, offering guidance for Class 11, Class 12, CA, CMA and CS aspirants.">
+    <meta name="keywords"
+        content="Commerce coaching in Raigarh, Commerce classes in Raigarh, Class 11 Commerce coaching Raigarh, Class 12 Commerce coaching Raigarh, CA coaching Raigarh, CMA coaching Raigarh, CS coaching Raigarh, Commerce Circle Raigarh, CA Upendra Sahu">
+
+    <meta name="google-site-verification" content="FWffdfJkmK4bHyoW_srKjvp9t1G5CpeSAtZAxRz4Bno" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Poppins:wght@500;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- AOS Animation Library -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            blue: '#005b9f', // Deep blue from logo
+                            cyan: '#00a0e3', // Cyan from logo
+                            green: '#008b46', // Green from logo
+                            dark: '#0f172a',
+                            light: '#f8fafc'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Styles & Utilities */
+        .text-gradient {
+            background-clip: text;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+
+        .hero-bg {
+            background: radial-gradient(circle at top right, rgba(0, 160, 227, 0.05), transparent 50%),
+                radial-gradient(circle at bottom left, rgba(0, 91, 159, 0.05), transparent 50%);
+        }
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+        }
+
+        details>summary {
+            list-style: none;
+        }
+
+        details>summary::-webkit-details-marker {
+            display: none;
+        }
+    </style>
+</head>
+
+<body class="font-sans text-gray-700 bg-brand-light antialiased">
+
+    <!-- WRAPPER TO PREVENT HORIZONTAL SCROLL ON MOBILE -->
+    <main class="overflow-x-hidden w-full">
+
+        <!-- Navigation Bar -->
+        <nav class="sticky top-0 z-50 bg-white shadow-sm border-b border-gray-100 transition-all duration-300"
+            id="navbar">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex justify-between items-center h-20">
+                    <!-- Logo -->
+                    <div class="flex-shrink-0 flex items-center">
+                        <a href="#">
+                            <img class="h-12 w-auto" src="images/cc2.png" alt="Commerce Circle Logo">
+                        </a>
+                    </div>
+
+                    <!-- Desktop Menu -->
+                    <div class="hidden lg:flex space-x-6 items-center">
+                        <a href="#" class="text-gray-600 hover:text-brand-blue font-medium transition">Home</a>
+                        <a href="#about" class="text-gray-600 hover:text-brand-blue font-medium transition">About</a>
+                        <a href="#courses"
+                            class="text-gray-600 hover:text-brand-blue font-medium transition">Courses</a>
+                        <a href="#why-us" class="text-gray-600 hover:text-brand-blue font-medium transition">Why Us</a>
+                        <a href="#faculty"
+                            class="text-gray-600 hover:text-brand-blue font-medium transition">Faculty</a>
+                        <a href="#results"
+                            class="text-gray-600 hover:text-brand-blue font-medium transition">Results</a>
+                        <a href="#contact"
+                            class="text-gray-600 hover:text-brand-blue font-medium transition">Contact</a>
+                        <a href="#contact"
+                            class="bg-brand-blue hover:bg-brand-cyan text-white px-6 py-2.5 rounded-full font-medium transition shadow-md shadow-brand-blue/30 transform hover:-translate-y-0.5">Enroll
+                            Now</a>
+                    </div>
+
+                    <!-- Mobile Menu Button -->
+                    <div class="lg:hidden flex items-center">
+                        <button id="mobile-menu-btn" class="text-gray-600 hover:text-brand-blue focus:outline-none p-2">
+                            <i class="fas fa-bars text-2xl"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 absolute w-full shadow-lg">
+                <div class="px-4 pt-2 pb-6 space-y-2">
+                    <a href="#"
+                        class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-blue-50">Home</a>
+                    <a href="#about"
+                        class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-blue-50">About</a>
+                    <a href="#courses"
+                        class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-blue-50">Courses</a>
+                    <a href="#why-us"
+                        class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-blue-50">Why
+                        Us</a>
+                    <a href="#faculty"
+                        class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-blue-50">Faculty</a>
+                    <a href="#contact"
+                        class="block px-3 py-2 rounded-md text-base font-medium text-gray-700 hover:text-brand-blue hover:bg-blue-50">Contact</a>
+                    <a href="#contact"
+                        class="block w-full text-center mt-4 bg-brand-blue text-white px-6 py-3 rounded-md font-medium">Enroll
+                        Now</a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Hero Section -->
+        <section class="relative hero-bg pt-20 pb-24 lg:pt-32 lg:pb-36 overflow-hidden">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                    <div data-aos="fade-right" data-aos-duration="1000">
+                        <div
+                            class="inline-flex items-center space-x-2 bg-blue-50 text-brand-blue px-4 py-2 rounded-full font-medium text-sm mb-6 border border-blue-100 shadow-sm">
+                            <i class="fas fa-map-marker-alt text-brand-cyan"></i>
+                            <span>Raigarh's Commerce-Focused Learning Community</span>
+                        </div>
+                        <h1
+                            class="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-brand-dark leading-tight mb-6">
+                            Build Your Future with <br>
+                            <span class="bg-gradient-to-r from-brand-blue to-brand-cyan text-gradient">Commerce
+                                Circle</span>
+                        </h1>
+                        <p class="text-xl text-gray-600 mb-4 font-medium">
+                            Empowering Commerce Students with Knowledge, Guidance & Confidence.
+                        </p>
+                        <p class="text-gray-500 mb-8 max-w-lg leading-relaxed">
+                            Quality coaching for Class 11 & 12 Commerce, CA, CMA and CS aspirants in Raigarh.
+                        </p>
+                        <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+                            <a href="#courses"
+                                class="bg-brand-blue hover:bg-brand-cyan text-white px-8 py-3.5 rounded-full font-medium transition shadow-lg shadow-brand-blue/30 text-center transform hover:-translate-y-1">Explore
+                                Courses</a>
+                            <a href="#contact"
+                                class="bg-white hover:bg-gray-50 text-brand-blue border border-brand-blue px-8 py-3.5 rounded-full font-medium transition shadow-sm text-center transform hover:-translate-y-1">Enquire
+                                Now</a>
+                        </div>
+                    </div>
+                    <div class="relative max-w-md mx-auto w-full" data-aos="fade-left" data-aos-duration="1000"
+                        data-aos-delay="200">
+                        <!-- Dynamic Changing Image Slideshow Container with Explicit Height -->
+                        <div
+                            class="relative w-full h-[320px] sm:h-[380px] md:h-[420px] rounded-3xl overflow-hidden shadow-2xl bg-white border border-gray-100 group">
+
+                            <!-- Slides Container -->
+                            <div id="hero-slider" class="relative w-full h-full">
+                                <div
+                                    class="hero-slide absolute inset-0 transition-opacity duration-700 ease-in-out opacity-100 z-10">
+                                    <img src="images/CBSE 12 topper.jpg" alt="Commerce Circle Students"
+                                        class="w-full h-full object-cover">
+                                    <div
+                                        class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-5 text-white">
+                                        <p class="text-xs font-bold uppercase tracking-wider text-brand-cyan">
+                                            Interactive Classrooms</p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="hero-slide absolute inset-0 transition-opacity duration-700 ease-in-out opacity-0 z-0">
+                                    <img src="images/teachers.jpg" alt="Commerce Circle Faculty"
+                                        class="w-full h-full object-cover">
+                                    <div
+                                        class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-5 text-white">
+                                        <p class="text-xs font-bold uppercase tracking-wider text-brand-cyan">Expert
+                                            Faculty</p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="hero-slide absolute inset-0 transition-opacity duration-700 ease-in-out opacity-0 z-0">
+                                    <img src="images/all.jpg" alt="Commerce Circle Community"
+                                        class="w-full h-full object-cover">
+                                    <div
+                                        class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-5 text-white">
+                                        <p class="text-xs font-bold uppercase tracking-wider text-brand-cyan">Commerce
+                                            Community</p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="hero-slide absolute inset-0 transition-opacity duration-700 ease-in-out opacity-0 z-0">
+                                    <img src="images/14th February for Others- Valentines Day 💘 For Commerce Circle 12th Students- Full Syllabus E.heic.jpg"
+                                        alt="Practical Workshops" class="w-full h-full object-cover">
+                                    <div
+                                        class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-5 text-white">
+                                        <p class="text-xs font-bold uppercase tracking-wider text-brand-cyan">Beyond
+                                            Academics</p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="hero-slide absolute inset-0 transition-opacity duration-700 ease-in-out opacity-0 z-0">
+                                    <img src="images/12 board district topper 2025.jpg" alt="District Topper 2025"
+                                        class="w-full h-full object-cover">
+                                    <div
+                                        class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-5 text-white">
+                                        <p class="text-xs font-bold uppercase tracking-wider text-brand-cyan">Proven
+                                            Excellence</p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="hero-slide absolute inset-0 transition-opacity duration-700 ease-in-out opacity-0 z-0">
+                                    <img src="images/achievers.jpg" alt="Achievers 2025"
+                                        class="w-full h-full object-cover">
+                                    <div
+                                        class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-5 text-white">
+                                        <p class="text-xs font-bold uppercase tracking-wider text-brand-cyan">Proven
+                                            Excellence</p>
+                                    </div>
+                                </div>
+
+                                <div
+                                    class="hero-slide absolute inset-0 transition-opacity duration-700 ease-in-out opacity-0 z-0">
+                                    <img src="images/Celebrating Excellence Proudly honoring the brilliance and dedication of our Commerce Circ.jpg"
+                                        alt="Celebrating Excellence Proudly honoring the brilliance and dedication of our Commerce Circ"
+                                        class="w-full h-full object-cover">
+                                    <div
+                                        class="absolute bottom-0 inset-x-0 bg-gradient-to-t from-black/80 via-black/40 to-transparent p-5 text-white">
+                                        <p class="text-xs font-bold uppercase tracking-wider text-brand-cyan">Proven
+                                            Excellence</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Controls: Previous & Next Arrows -->
+                            <!-- <button id="hero-prev" aria-label="Previous Slide" class="absolute left-3 top-1/2 -translate-y-1/2 z-20 bg-white/80 hover:bg-white text-gray-800 p-2.5 rounded-full shadow-lg backdrop-blur transition opacity-0 group-hover:opacity-100 focus:outline-none hover:scale-110">
+                                <i class="fas fa-chevron-left text-sm"></i>
+                            </button>
+                            <button id="hero-next" aria-label="Next Slide" class="absolute right-3 top-1/2 -translate-y-1/2 z-20 bg-white/80 hover:bg-white text-gray-800 p-2.5 rounded-full shadow-lg backdrop-blur transition opacity-0 group-hover:opacity-100 focus:outline-none hover:scale-110">
+                                <i class="fas fa-chevron-right text-sm"></i>
+                            </button> -->
+
+                            <!-- Slide Indicator Dots -->
+                            <div id="hero-dots"
+                                class="absolute bottom-3 right-4 z-20 flex space-x-1.5 bg-black/40 backdrop-blur-md px-3 py-1.5 rounded-full">
+                                <button class="hero-dot w-5 h-2 rounded-full bg-white transition-all duration-300"
+                                    data-index="0" aria-label="Slide 1"></button>
+                                <button
+                                    class="hero-dot w-2 h-2 rounded-full bg-white/50 hover:bg-white/80 transition-all duration-300"
+                                    data-index="1" aria-label="Slide 2"></button>
+                                <button
+                                    class="hero-dot w-2 h-2 rounded-full bg-white/50 hover:bg-white/80 transition-all duration-300"
+                                    data-index="2" aria-label="Slide 3"></button>
+                                <button
+                                    class="hero-dot w-2 h-2 rounded-full bg-white/50 hover:bg-white/80 transition-all duration-300"
+                                    data-index="3" aria-label="Slide 4"></button>
+                                <button
+                                    class="hero-dot w-2 h-2 rounded-full bg-white/50 hover:bg-white/80 transition-all duration-300"
+                                    data-index="4" aria-label="Slide 5"></button>
+                                <button
+                                    class="hero-dot w-2 h-2 rounded-full bg-white/50 hover:bg-white/80 transition-all duration-300"
+                                    data-index="5" aria-label="Slide 6"></button>
+                                <button
+                                    class="hero-dot w-2 h-2 rounded-full bg-white/50 hover:bg-white/80 transition-all duration-300"
+                                    data-index="6" aria-label="Slide 7"></button>
+
+                            </div>
+                        </div>
+
+                        <!-- Floating Badges (Positioned outside overflow-hidden slider frame) -->
+                        <div
+                            class="absolute -top-5 -right-5 z-30 bg-white p-3.5 rounded-xl shadow-xl border border-gray-100 flex items-center space-x-3 transform hover:scale-105 transition">
+                            <div class="bg-brand-green/10 p-2.5 rounded-full text-brand-green">
+                                <i class="fas fa-chart-line text-lg"></i>
+                            </div>
+                            <div>
+                                <p class="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Growth</p>
+                                <p class="text-xs font-heading font-semibold">Career Focused</p>
+                            </div>
+                        </div>
+                        <div
+                            class="absolute -bottom-5 -left-5 z-30 bg-white p-3.5 rounded-xl shadow-xl border border-gray-100 flex items-center space-x-3 transform hover:scale-105 transition">
+                            <div class="bg-brand-cyan/10 p-2.5 rounded-full text-brand-cyan">
+                                <i class="fas fa-graduation-cap text-lg"></i>
+                            </div>
+                            <div>
+                                <p class="text-[10px] text-gray-500 font-bold uppercase tracking-wider">Success</p>
+                                <p class="text-xs font-heading font-semibold">Expert Mentorship</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Trust / Highlight Strip -->
+        <section class="bg-brand-dark py-12 relative z-20">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-2 md:grid-cols-4 gap-8 text-center divide-x divide-gray-700">
+                    <div data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="text-3xl md:text-4xl font-heading font-bold text-white mb-2">1000+</h3>
+                        <p class="text-brand-cyan font-medium">Students Guided</p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="text-3xl md:text-4xl font-heading font-bold text-white mb-2">Expert</h3>
+                        <p class="text-brand-cyan font-medium">Faculty & Mentorship</p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="300">
+                        <h3 class="text-3xl md:text-4xl font-heading font-bold text-white mb-2">Commerce</h3>
+                        <p class="text-brand-cyan font-medium">Focused Learning</p>
+                    </div>
+                    <div data-aos="fade-up" data-aos-delay="400">
+                        <h3 class="text-3xl md:text-4xl font-heading font-bold text-white mb-2">Raigarh</h3>
+                        <p class="text-brand-cyan font-medium">Chhattisgarh</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                    <div data-aos="fade-right">
+                        <div
+                            class="w-full aspect-[4/3] bg-gray-100 rounded-2xl overflow-hidden relative shadow-inner flex items-center justify-center">
+                            <img src="images/all.jpg" alt="" class="w-full h-full object-cover">
+                            <span
+                                class="absolute bottom-4 right-4 bg-white/90 px-4 py-2 rounded-lg text-sm font-semibold shadow backdrop-blur text-brand-dark">
+                                "A Family of Learners"
+                            </span>
+                        </div>
+                    </div>
+                    <div data-aos="fade-left">
+                        <h2 class="text-sm font-bold text-brand-cyan tracking-wider uppercase mb-2">About Us</h2>
+                        <h3 class="text-3xl md:text-4xl font-heading font-bold text-brand-dark mb-6">More Than Coaching.
+                            A Community of Learners.</h3>
+                        <p class="text-gray-600 mb-6 text-lg leading-relaxed">
+                            Commerce Circle is a dedicated learning community for commerce students in Raigarh,
+                            Chhattisgarh. We believe that strong fundamentals, consistent guidance and the right
+                            mentorship can transform a student's academic journey.
+                        </p>
+
+                        <ul class="space-y-4 mb-8">
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-brand-green mt-1 mr-3 text-lg"></i>
+                                <span class="text-gray-700"><strong>Concept-based learning:</strong> Focus on
+                                    understanding, not cramming.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-brand-green mt-1 mr-3 text-lg"></i>
+                                <span class="text-gray-700"><strong>Personal attention & Doubt solving:</strong> Every
+                                    student matters.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-brand-green mt-1 mr-3 text-lg"></i>
+                                <span class="text-gray-700"><strong>Exam-oriented preparation & Regular
+                                        practice:</strong> Structured for success.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <i class="fas fa-check-circle text-brand-green mt-1 mr-3 text-lg"></i>
+                                <span class="text-gray-700"><strong>Career guidance & Mentorship:</strong> Navigating
+                                    your professional path.</span>
+                            </li>
+                        </ul>
+
+                        <div class="bg-blue-50 p-6 rounded-xl border-l-4 border-brand-blue flex items-center space-x-4">
+                            <div class="bg-white p-3 rounded-full shadow-sm">
+                                <i class="fas fa-user-tie text-2xl text-brand-blue"></i>
+                            </div>
+                            <div>
+                                <p class="text-sm text-gray-500 font-medium">Founded by</p>
+                                <p class="text-lg font-heading font-bold text-brand-dark">CA Upendra Sahu</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Courses Section -->
+        <section id="courses" class="py-20 bg-brand-light">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center max-w-3xl mx-auto mb-16" data-aos="fade-up">
+                    <h2 class="text-sm font-bold text-brand-cyan tracking-wider uppercase mb-2">Our Programs</h2>
+                    <h3 class="text-3xl md:text-4xl font-heading font-bold text-brand-dark mb-4">Courses Designed for
+                        Your Commerce Journey</h3>
+                    <p class="text-gray-600">Structured learning paths to help you build fundamentals and conquer
+                        professional examinations.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+
+                    <!-- Course Card 1 -->
+                    <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-brand-blue overflow-hidden group"
+                        data-aos="fade-up" data-aos-delay="100">
+                        <div class="p-8">
+                            <div
+                                class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 transition-transform">
+                                <i class="fas fa-book-open text-2xl"></i>
+                            </div>
+                            <h4 class="text-2xl font-heading font-bold text-brand-dark mb-3">Class 11 Commerce</h4>
+                            <p class="text-gray-600 mb-6">Build a strong foundation in Accountancy, Business Studies,
+                                Economics and other core commerce subjects.</p>
+                            <a href="#contact"
+                                class="inline-flex items-center text-brand-blue font-semibold hover:text-brand-cyan transition">
+                                Learn More <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 2 -->
+                    <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-brand-cyan overflow-hidden group"
+                        data-aos="fade-up" data-aos-delay="200">
+                        <div class="p-8">
+                            <div
+                                class="w-14 h-14 bg-cyan-50 rounded-xl flex items-center justify-center text-brand-cyan mb-6 group-hover:scale-110 transition-transform">
+                                <i class="fas fa-award text-2xl"></i>
+                            </div>
+                            <h4 class="text-2xl font-heading font-bold text-brand-dark mb-3">Class 12 Commerce</h4>
+                            <p class="text-gray-600 mb-6">Strengthen concepts, improve exam preparation and develop
+                                confidence for board examinations.</p>
+                            <a href="#contact"
+                                class="inline-flex items-center text-brand-cyan font-semibold hover:text-brand-blue transition">
+                                Learn More <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 3 -->
+                    <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-brand-green overflow-hidden group"
+                        data-aos="fade-up" data-aos-delay="300">
+                        <div class="p-8">
+                            <div
+                                class="w-14 h-14 bg-green-50 rounded-xl flex items-center justify-center text-brand-green mb-6 group-hover:scale-110 transition-transform">
+                                <i class="fas fa-calculator text-2xl"></i>
+                            </div>
+                            <h4 class="text-2xl font-heading font-bold text-brand-dark mb-3">CA Preparation</h4>
+                            <p class="text-gray-600 mb-6">Focused learning and guidance for students beginning their
+                                Chartered Accountancy journey.</p>
+                            <a href="#contact"
+                                class="inline-flex items-center text-brand-green font-semibold hover:text-brand-blue transition">
+                                Learn More <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 4 -->
+                    <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-brand-dark overflow-hidden group lg:col-start-1 lg:col-span-1 lg:translate-x-1/2"
+                        data-aos="fade-up" data-aos-delay="400">
+                        <div class="p-8">
+                            <div
+                                class="w-14 h-14 bg-gray-100 rounded-xl flex items-center justify-center text-brand-dark mb-6 group-hover:scale-110 transition-transform">
+                                <i class="fas fa-chart-pie text-2xl"></i>
+                            </div>
+                            <h4 class="text-2xl font-heading font-bold text-brand-dark mb-3">CMA Preparation</h4>
+                            <p class="text-gray-600 mb-6">Build the conceptual and analytical foundation needed for the
+                                Cost and Management Accountancy pathway.</p>
+                            <a href="#contact"
+                                class="inline-flex items-center text-brand-dark font-semibold hover:text-brand-cyan transition">
+                                Learn More <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Course Card 5 -->
+                    <div class="bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-300 border-t-4 border-brand-blue overflow-hidden group lg:col-start-2 lg:col-span-1 lg:translate-x-1/2"
+                        data-aos="fade-up" data-aos-delay="500">
+                        <div class="p-8">
+                            <div
+                                class="w-14 h-14 bg-blue-50 rounded-xl flex items-center justify-center text-brand-blue mb-6 group-hover:scale-110 transition-transform">
+                                <i class="fas fa-file-signature text-2xl"></i>
+                            </div>
+                            <h4 class="text-2xl font-heading font-bold text-brand-dark mb-3">CS Preparation</h4>
+                            <p class="text-gray-600 mb-6">Develop strong fundamentals and structured preparation for the
+                                Company Secretary pathway.</p>
+                            <a href="#contact"
+                                class="inline-flex items-center text-brand-blue font-semibold hover:text-brand-cyan transition">
+                                Learn More <i class="fas fa-arrow-right ml-2 text-sm"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Why Choose Us -->
+        <section id="why-us" class="py-20 bg-white">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold text-brand-dark">Why Students Choose Commerce
+                        Circle</h2>
+                    <div class="w-20 h-1 bg-brand-cyan mx-auto mt-6 rounded-full"></div>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                    <!-- Feature 1 -->
+                    <div class="flex items-start space-x-4 p-6 rounded-xl hover:bg-gray-50 transition"
+                        data-aos="fade-up" data-aos-delay="100">
+                        <div
+                            class="flex-shrink-0 w-12 h-12 rounded-full bg-blue-50 text-brand-blue flex items-center justify-center border border-blue-100">
+                            <i class="fas fa-lightbulb text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold text-brand-dark mb-2">Concept Clarity</h4>
+                            <p class="text-gray-600 leading-relaxed">Understand the 'why' behind every concept.</p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="flex items-start space-x-4 p-6 rounded-xl hover:bg-gray-50 transition"
+                        data-aos="fade-up" data-aos-delay="200">
+                        <div
+                            class="flex-shrink-0 w-12 h-12 rounded-full bg-cyan-50 text-brand-cyan flex items-center justify-center border border-cyan-100">
+                            <i class="fas fa-hand-holding-heart text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold text-brand-dark mb-2">Personal Attention</h4>
+                            <p class="text-gray-600 leading-relaxed">Learning support designed around student needs.</p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="flex items-start space-x-4 p-6 rounded-xl hover:bg-gray-50 transition"
+                        data-aos="fade-up" data-aos-delay="300">
+                        <div
+                            class="flex-shrink-0 w-12 h-12 rounded-full bg-green-50 text-brand-green flex items-center justify-center border border-green-100">
+                            <i class="fas fa-pencil-alt text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold text-brand-dark mb-2">Regular Practice</h4>
+                            <p class="text-gray-600 leading-relaxed">Consistent practice to build accuracy and
+                                confidence.</p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div class="flex items-start space-x-4 p-6 rounded-xl hover:bg-gray-50 transition"
+                        data-aos="fade-up" data-aos-delay="400">
+                        <div
+                            class="flex-shrink-0 w-12 h-12 rounded-full bg-blue-50 text-brand-blue flex items-center justify-center border border-blue-100">
+                            <i class="fas fa-comments text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold text-brand-dark mb-2">Doubt Support</h4>
+                            <p class="text-gray-600 leading-relaxed">Get your questions resolved and keep learning.</p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 5 -->
+                    <div class="flex items-start space-x-4 p-6 rounded-xl hover:bg-gray-50 transition"
+                        data-aos="fade-up" data-aos-delay="500">
+                        <div
+                            class="flex-shrink-0 w-12 h-12 rounded-full bg-cyan-50 text-brand-cyan flex items-center justify-center border border-cyan-100">
+                            <i class="fas fa-file-alt text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold text-brand-dark mb-2">Exam-Focused Prep</h4>
+                            <p class="text-gray-600 leading-relaxed">Structured preparation aligned with academic and
+                                professional goals.</p>
+                        </div>
+                    </div>
+
+                    <!-- Feature 6 -->
+                    <div class="flex items-start space-x-4 p-6 rounded-xl hover:bg-gray-50 transition"
+                        data-aos="fade-up" data-aos-delay="600">
+                        <div
+                            class="flex-shrink-0 w-12 h-12 rounded-full bg-green-50 text-brand-green flex items-center justify-center border border-green-100">
+                            <i class="fas fa-compass text-xl"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-xl font-bold text-brand-dark mb-2">Career Guidance</h4>
+                            <p class="text-gray-600 leading-relaxed">Understand your options and make informed decisions
+                                about your commerce career.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Founder Section -->
+        <section class="py-20 bg-brand-dark relative overflow-hidden">
+            <div class="absolute inset-0 opacity-10">
+                <div class="absolute -right-20 -top-20 w-96 h-96 rounded-full border-[40px] border-white"></div>
+                <div class="absolute -left-20 -bottom-20 w-80 h-80 rounded-full border-[30px] border-white"></div>
+            </div>
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                    <div class="lg:col-span-5" data-aos="fade-right">
+                        <!-- Founder Photo -->
+                        <div
+                            class="w-64 h-80 md:w-80 md:h-[400px] mx-auto bg-gray-800 rounded-3xl overflow-hidden relative shadow-2xl border-4 border-gray-700">
+                            <img src="images/upen.jpg" alt="CA Upendra Sahu"
+                                class="w-full h-full object-cover object-center">
+                            <div class="absolute inset-0 bg-gradient-to-t from-black/80 via-black/20 to-transparent">
+                            </div>
+                            <div class="absolute bottom-6 left-6 right-6 text-white z-10">
+                                <p class="font-heading font-bold text-xl">CA Upendra Sahu</p>
+                                <p class="text-sm text-gray-200">Founder, Commerce Circle</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="lg:col-span-7 text-center lg:text-left text-white" data-aos="fade-left">
+                        <h2 class="text-sm font-bold text-brand-cyan tracking-widest uppercase mb-2">Meet Our Founder
+                        </h2>
+                        <h3 class="text-3xl md:text-5xl font-heading font-bold mb-6">CA Upendra Sahu</h3>
+                        <div class="w-16 h-1 bg-brand-cyan mx-auto lg:mx-0 mb-8 rounded-full"></div>
+                        <p class="text-lg text-gray-300 mb-8 leading-relaxed">
+                            "Commerce Circle was founded by CA Upendra Sahu with the vision of creating a focused
+                            learning environment where commerce students can strengthen their fundamentals, receive the
+                            right guidance and confidently pursue their academic and professional goals."
+                        </p>
+                        <a href="#about"
+                            class="inline-block bg-transparent hover:bg-white text-white hover:text-brand-dark border-2 border-white px-8 py-3 rounded-full font-semibold transition duration-300">
+                            Learn About Commerce Circle
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Learning Experience Timeline -->
+        <section class="py-20 bg-gray-50">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold text-brand-dark">Learning That Goes Beyond
+                        the Classroom</h2>
+                    <p class="text-gray-600 mt-4">A structured approach to mastering commerce.</p>
+                </div>
+
+                <div class="relative">
+                    <!-- Timeline Line -->
+                    <div
+                        class="hidden md:block absolute top-1/2 left-0 w-full h-1 bg-gray-200 -translate-y-1/2 rounded">
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-5 gap-8">
+                        <!-- Step 1 -->
+                        <div class="relative text-center group" data-aos="fade-up" data-aos-delay="100">
+                            <div
+                                class="w-16 h-16 mx-auto bg-white border-4 border-gray-100 rounded-full flex items-center justify-center font-heading font-bold text-xl text-gray-400 group-hover:border-brand-blue group-hover:text-brand-blue transition-all duration-300 relative z-10 shadow-sm">
+                                01
+                            </div>
+                            <h4 class="mt-6 text-lg font-bold text-brand-dark">Learn</h4>
+                            <p class="mt-2 text-sm text-gray-600">Understand concepts clearly.</p>
+                        </div>
+
+                        <!-- Step 2 -->
+                        <div class="relative text-center group" data-aos="fade-up" data-aos-delay="200">
+                            <div
+                                class="w-16 h-16 mx-auto bg-white border-4 border-gray-100 rounded-full flex items-center justify-center font-heading font-bold text-xl text-gray-400 group-hover:border-brand-cyan group-hover:text-brand-cyan transition-all duration-300 relative z-10 shadow-sm">
+                                02
+                            </div>
+                            <h4 class="mt-6 text-lg font-bold text-brand-dark">Practice</h4>
+                            <p class="mt-2 text-sm text-gray-600">Apply knowledge through regular practice.</p>
+                        </div>
+
+                        <!-- Step 3 -->
+                        <div class="relative text-center group" data-aos="fade-up" data-aos-delay="300">
+                            <div
+                                class="w-16 h-16 mx-auto bg-white border-4 border-gray-100 rounded-full flex items-center justify-center font-heading font-bold text-xl text-gray-400 group-hover:border-brand-green group-hover:text-brand-green transition-all duration-300 relative z-10 shadow-sm">
+                                03
+                            </div>
+                            <h4 class="mt-6 text-lg font-bold text-brand-dark">Improve</h4>
+                            <p class="mt-2 text-sm text-gray-600">Identify gaps and strengthen weak areas.</p>
+                        </div>
+
+                        <!-- Step 4 -->
+                        <div class="relative text-center group" data-aos="fade-up" data-aos-delay="400">
+                            <div
+                                class="w-16 h-16 mx-auto bg-white border-4 border-gray-100 rounded-full flex items-center justify-center font-heading font-bold text-xl text-gray-400 group-hover:border-brand-blue group-hover:text-brand-blue transition-all duration-300 relative z-10 shadow-sm">
+                                04
+                            </div>
+                            <h4 class="mt-6 text-lg font-bold text-brand-dark">Prepare</h4>
+                            <p class="mt-2 text-sm text-gray-600">Build confidence for academic and professional
+                                examinations.</p>
+                        </div>
+
+                        <!-- Step 5 -->
+                        <div class="relative text-center group" data-aos="fade-up" data-aos-delay="500">
+                            <div
+                                class="w-16 h-16 mx-auto bg-white border-4 border-gray-100 rounded-full flex items-center justify-center font-heading font-bold text-xl text-gray-400 group-hover:border-brand-cyan group-hover:text-brand-cyan transition-all duration-300 relative z-10 shadow-sm">
+                                05
+                            </div>
+                            <h4 class="mt-6 text-lg font-bold text-brand-dark">Grow</h4>
+                            <p class="mt-2 text-sm text-gray-600">Develop skills for long-term career success.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Results / Achievements Section -->
+        <section id="results" class="py-20 bg-white border-t border-gray-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="flex flex-col md:flex-row justify-between items-end mb-12" data-aos="fade-up">
+                    <div class="max-w-2xl">
+                        <h2 class="text-sm font-bold text-brand-green tracking-wider uppercase mb-2">Our Students'
+                            Journey</h2>
+                        <h3 class="text-3xl md:text-4xl font-heading font-bold text-brand-dark">Results & Achievements
+                        </h3>
+                    </div>
+                    <a href="#contact"
+                        class="hidden md:inline-flex items-center font-semibold text-brand-blue hover:text-brand-cyan transition mt-4 md:mt-0">
+                        Join Our Success Story <i class="fas fa-arrow-right ml-2"></i>
+                    </a>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                    <!-- Placeholder Card 1 -->
+                    <div class="bg-gray-50 border border-gray-100 rounded-xl p-6 text-center hover:shadow-md transition border-dashed border-2 flex flex-col items-center justify-center min-h-[250px]"
+                        data-aos="fade-up" data-aos-delay="100">
+                        <div
+                            class="w-30 h-25 bg-gray-200 rounded-full mb-4 flex items-center justify-center text-gray-400 text-2xl">
+                            <img src="images/12 board district topper 2025.jpg" alt=""
+                                class="w-full h-full object-cover">
+                        </div>
+                        <p class="font-heading font-bold text-gray-600">Raigarh District Topper</p>
+                        <p class="text-xs text-gray-400 mt-2">CBSE 12th Board Result 2025</p>
+                    </div>
+
+                    <!-- Placeholder Card 2 -->
+                    <div class="bg-gray-50 border border-gray-100 rounded-xl p-6 text-center hover:shadow-md transition border-dashed border-2 flex flex-col items-center justify-center min-h-[250px]"
+                        data-aos="fade-up" data-aos-delay="200">
+                        <div
+                            class="w-25 h-30 bg-gray-200 rounded-full mb-4 flex items-center justify-center text-gray-400 text-2xl">
+                            <img src="images/CG board 2025.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <p class="font-heading font-bold text-gray-600">CG Board Topper</p>
+                        <p class="text-xs text-gray-400 mt-2">CG 12th Board Result 2025</p>
+                    </div>
+
+                    <!-- Placeholder Card 3 -->
+                    <div class="bg-gray-50 border border-gray-100 rounded-xl p-6 text-center hover:shadow-md transition border-dashed border-2 flex flex-col items-center justify-center min-h-[250px]"
+                        data-aos="fade-up" data-aos-delay="300">
+                        <div
+                            class="w-25 h-30 bg-gray-200 rounded-full mb-4 flex items-center justify-center text-gray-400 text-2xl">
+                            <img src="images/CMA Foundation exam.jpg" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <p class="font-heading font-bold text-gray-600">CMA Foundation</p>
+                        <p class="text-xs text-gray-400 mt-2">2023</p>
+                    </div>
+
+                    <!-- Placeholder Card 4 -->
+                    <div class="bg-gray-50 border border-gray-100 rounded-xl p-6 text-center hover:shadow-md transition border-dashed border-2 flex flex-col items-center justify-center min-h-[250px]"
+                        data-aos="fade-up" data-aos-delay="400">
+                        <div
+                            class="w-21 h-25 bg-gray-200 rounded-full mb-4 flex items-center justify-center text-gray-400 text-2xl">
+                            <img src="images/CA intermediate.png" alt="" class="w-full h-full object-cover">
+                        </div>
+                        <p class="font-heading font-bold text-gray-600">CA intermediate</p>
+                        <p class="text-xs text-gray-400 mt-2">Special Recognition</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="py-20 bg-brand-light">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold text-brand-dark mb-4">Student Testimonials
+                    </h2>
+                    <p class="text-gray-500 max-w-xl mx-auto">Hear what our family of learners has to say about their
+                        experience at Commerce Circle.</p>
+                </div>
+
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <!-- Testimonial 1 -->
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100 relative group flex flex-col justify-between"
+                        data-aos="fade-up" data-aos-delay="100">
+                        <i
+                            class="fas fa-quote-left text-4xl text-blue-100/70 group-hover:text-brand-blue/20 transition-colors absolute top-6 right-6"></i>
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex text-amber-400 text-sm">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <span
+                                    class="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-blue-50 text-brand-blue border border-blue-100">
+                                    Class 12 CBSE
+                                </span>
+                            </div>
+                            <p class="text-gray-600 mb-6 italic leading-relaxed">
+                                "Commerce Circle completely transformed my approach toward Accountancy and Economics. CA
+                                Upendra Sir doesn't just teach the syllabus&mdash;he ensures every core concept is
+                                crystal clear with practical examples. The regular chapter tests and personal doubt
+                                sessions helped me score 95% in my board exams!"
+                            </p>
+                        </div>
+                        <div class="flex items-center pt-5 border-t border-gray-100">
+                            <div
+                                class="w-12 h-12 bg-gradient-to-br from-blue-500 to-brand-blue text-white rounded-full flex items-center justify-center font-heading font-bold text-lg mr-4 shadow-md shadow-blue-500/20 flex-shrink-0">
+                                A
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-brand-dark text-base">Ayush Agrawal</h5>
+                                <p class="text-xs text-brand-blue font-semibold">CBSE Commerce Topper (95% in Accounts)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 2 -->
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100 relative group flex flex-col justify-between"
+                        data-aos="fade-up" data-aos-delay="200">
+                        <i
+                            class="fas fa-quote-left text-4xl text-cyan-100/70 group-hover:text-brand-cyan/20 transition-colors absolute top-6 right-6"></i>
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex text-amber-400 text-sm">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <span
+                                    class="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-cyan-50 text-brand-cyan border border-cyan-100">
+                                    CA Foundation
+                                </span>
+                            </div>
+                            <p class="text-gray-600 mb-6 italic leading-relaxed">
+                                "Starting my CA journey felt overwhelming at first, but the structured roadmap and
+                                disciplined study environment at Commerce Circle made everything manageable. Learning
+                                directly from a practicing Chartered Accountant gives insights you simply won't find in
+                                textbooks. Truly the best coaching in Raigarh!"
+                            </p>
+                        </div>
+                        <div class="flex items-center pt-5 border-t border-gray-100">
+                            <div
+                                class="w-12 h-12 bg-gradient-to-br from-cyan-500 to-brand-cyan text-white rounded-full flex items-center justify-center font-heading font-bold text-lg mr-4 shadow-md shadow-cyan-500/20 flex-shrink-0">
+                                P
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-brand-dark text-base">Priya Sharma</h5>
+                                <p class="text-xs text-brand-cyan font-semibold">CA Foundation Aspirant</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testimonial 3 -->
+                    <div class="bg-white p-8 rounded-2xl shadow-sm hover:shadow-xl hover:-translate-y-1 transition-all duration-300 border border-gray-100 relative group flex flex-col justify-between"
+                        data-aos="fade-up" data-aos-delay="300">
+                        <i
+                            class="fas fa-quote-left text-4xl text-green-100/70 group-hover:text-brand-green/20 transition-colors absolute top-6 right-6"></i>
+                        <div>
+                            <div class="flex items-center justify-between mb-4">
+                                <div class="flex text-amber-400 text-sm">
+                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                        class="fas fa-star"></i><i class="fas fa-star"></i>
+                                </div>
+                                <span
+                                    class="text-xs font-semibold uppercase tracking-wider px-3 py-1 rounded-full bg-green-50 text-brand-green border border-green-100">
+                                    Class 11 & CMA
+                                </span>
+                            </div>
+                            <p class="text-gray-600 mb-6 italic leading-relaxed">
+                                "The transition from Class 10 to Commerce stream was made effortless by the mentors
+                                here. Upendra Sir breaks down complex Journal entries and Financial Statements into
+                                intuitive logic. The personal attention and encouraging atmosphere motivate me to aim
+                                higher every day."
+                            </p>
+                        </div>
+                        <div class="flex items-center pt-5 border-t border-gray-100">
+                            <div
+                                class="w-12 h-12 bg-gradient-to-br from-emerald-500 to-brand-green text-white rounded-full flex items-center justify-center font-heading font-bold text-lg mr-4 shadow-md shadow-emerald-500/20 flex-shrink-0">
+                                R
+                            </div>
+                            <div>
+                                <h5 class="font-bold text-brand-dark text-base">Rohan Patel</h5>
+                                <p class="text-xs text-brand-green font-semibold">Class 11 & CMA Foundation Batch</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Faculty / Mentors Section -->
+        <section id="faculty" class="py-20 bg-white border-t border-gray-100">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-16" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold text-brand-dark">Learn From Experienced
+                        Mentors</h2>
+                    <div class="w-20 h-1 bg-brand-blue mx-auto mt-6 rounded-full"></div>
+                </div>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
+
+                    <!-- Faculty Placeholder -->
+                    <div class="bg-gray-50 rounded-2xl overflow-hidden hover:shadow-lg transition group border border-gray-100"
+                        data-aos="fade-up" data-aos-delay="100">
+                        <div class="h-64 bg-gray-200 w-full relative flex items-center justify-center text-gray-400">
+                            <img src="images/upen.jpg" alt="CA Upendra Sahu" class="w-full h-full object-cover">
+
+                        </div>
+                        <div class="p-6 text-center">
+                            <h4 class="font-bold text-lg text-brand-dark">CA Upendra Sahu</h4>
+                            <p class="text-brand-cyan text-sm font-semibold mb-2">Chartered Accountant</p>
+                            <p class="text-xs text-white bg-brand-dark inline-block px-3 py-1 rounded-full mb-3">
+                                Accountancy, Economics, Business Studies</p>
+                            <p class="text-sm text-gray-500 line-clamp-2">CBSE, ICSE Board
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Faculty Placeholder -->
+                    <div class="bg-gray-50 rounded-2xl overflow-hidden hover:shadow-lg transition group border border-gray-100"
+                        data-aos="fade-up" data-aos-delay="200">
+                        <div class="h-64 bg-gray-200 w-full relative flex items-center justify-center text-gray-400">
+                            <img src="images/shiva sir.png" alt="Shiva Sir" class="w-full h-full object-cover">
+                        </div>
+                        <div class="p-6 text-center">
+                            <h4 class="font-bold text-lg text-brand-dark">Shiva Sir</h4>
+                            <p class="text-brand-cyan text-sm font-semibold mb-2">B.Com</p>
+                            <p class="text-xs text-white bg-brand-dark inline-block px-3 py-1 rounded-full mb-3">
+                                Accountancy, Economics, Business Studies</p>
+                            <p class="text-sm text-gray-500 line-clamp-2">CG Board
+                            </p>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="py-20 bg-brand-light">
+            <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="text-center mb-12" data-aos="fade-up">
+                    <h2 class="text-3xl md:text-4xl font-heading font-bold text-brand-dark">Frequently Asked Questions
+                    </h2>
+                </div>
+
+                <div class="space-y-4">
+                    <!-- FAQ 1 -->
+                    <details class="group bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden"
+                        data-aos="fade-up" data-aos-delay="100">
+                        <summary
+                            class="flex justify-between items-center font-medium cursor-pointer list-none p-5 text-brand-dark hover:text-brand-blue transition">
+                            <span class="font-semibold">Which classes does Commerce Circle teach?</span>
+                            <span class="transition group-open:rotate-180">
+                                <i class="fas fa-chevron-down text-sm text-gray-400"></i>
+                            </span>
+                        </summary>
+                        <div class="text-gray-600 p-5 pt-0 text-sm leading-relaxed border-t border-gray-50">
+                            We provide expert coaching for Class 11 and Class 12 Commerce students.
+                        </div>
+                    </details>
+
+                    <!-- FAQ 2 -->
+                    <details class="group bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden"
+                        data-aos="fade-up" data-aos-delay="150">
+                        <summary
+                            class="flex justify-between items-center font-medium cursor-pointer list-none p-5 text-brand-dark hover:text-brand-blue transition">
+                            <span class="font-semibold">Does Commerce Circle offer CA preparation?</span>
+                            <span class="transition group-open:rotate-180">
+                                <i class="fas fa-chevron-down text-sm text-gray-400"></i>
+                            </span>
+                        </summary>
+                        <div class="text-gray-600 p-5 pt-0 text-sm leading-relaxed border-t border-gray-50">
+                            Yes, we offer focused learning and guidance for CA (Chartered Accountancy) aspirants.
+                        </div>
+                    </details>
+
+                    <!-- FAQ 3 -->
+                    <details class="group bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden"
+                        data-aos="fade-up" data-aos-delay="200">
+                        <summary
+                            class="flex justify-between items-center font-medium cursor-pointer list-none p-5 text-brand-dark hover:text-brand-blue transition">
+                            <span class="font-semibold">Does Commerce Circle offer CMA preparation?</span>
+                            <span class="transition group-open:rotate-180">
+                                <i class="fas fa-chevron-down text-sm text-gray-400"></i>
+                            </span>
+                        </summary>
+                        <div class="text-gray-600 p-5 pt-0 text-sm leading-relaxed border-t border-gray-50">
+                            Yes, we provide preparation and conceptual foundation for CMA (Cost and Management
+                            Accountancy).
+                        </div>
+                    </details>
+
+                    <!-- FAQ 4 -->
+                    <details class="group bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden"
+                        data-aos="fade-up" data-aos-delay="250">
+                        <summary
+                            class="flex justify-between items-center font-medium cursor-pointer list-none p-5 text-brand-dark hover:text-brand-blue transition">
+                            <span class="font-semibold">Does Commerce Circle offer CS preparation?</span>
+                            <span class="transition group-open:rotate-180">
+                                <i class="fas fa-chevron-down text-sm text-gray-400"></i>
+                            </span>
+                        </summary>
+                        <div class="text-gray-600 p-5 pt-0 text-sm leading-relaxed border-t border-gray-50">
+                            Yes, we offer structured preparation for CS (Company Secretary) aspirants.
+                        </div>
+                    </details>
+
+                    <!-- FAQ 5 -->
+                    <details class="group bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden"
+                        data-aos="fade-up" data-aos-delay="300">
+                        <summary
+                            class="flex justify-between items-center font-medium cursor-pointer list-none p-5 text-brand-dark hover:text-brand-blue transition">
+                            <span class="font-semibold">Where is Commerce Circle located?</span>
+                            <span class="transition group-open:rotate-180">
+                                <i class="fas fa-chevron-down text-sm text-gray-400"></i>
+                            </span>
+                        </summary>
+                        <div class="text-gray-600 p-5 pt-0 text-sm leading-relaxed border-t border-gray-50">
+                            We are located in Gauri Shankar Mandir Rd, near Karnataka Bank &
+                            Agroha Bhawan, Raigarh, Chhattisgarh, India 496001.
+                        </div>
+                    </details>
+
+                    <!-- FAQ 6 -->
+                    <details class="group bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden"
+                        data-aos="fade-up" data-aos-delay="350">
+                        <summary
+                            class="flex justify-between items-center font-medium cursor-pointer list-none p-5 text-brand-dark hover:text-brand-blue transition">
+                            <span class="font-semibold">How can I enquire about admission?</span>
+                            <span class="transition group-open:rotate-180">
+                                <i class="fas fa-chevron-down text-sm text-gray-400"></i>
+                            </span>
+                        </summary>
+                        <div class="text-gray-600 p-5 pt-0 text-sm leading-relaxed border-t border-gray-50">
+                            You can fill out the enquiry form on our website, email us directly at <a
+                                href="https://mail.google.com/mail/?view=cm&fs=1&to=ccrgh13@gmail.com" target="_blank"
+                                rel="noopener noreferrer"
+                                class="text-brand-blue hover:underline font-semibold">ccrgh13@gmail.com</a>, call us
+                            directly, or drop a message on
+                            WhatsApp.
+                        </div>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact / Enquiry Section -->
+        <section id="contact" class="py-20 bg-white relative">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
+                    <!-- Text and Contact Details -->
+                    <div data-aos="fade-right">
+                        <h2 class="text-3xl md:text-5xl font-heading font-bold text-brand-dark mb-4">Ready to Start Your
+                            Commerce Journey?</h2>
+                        <p class="text-xl text-gray-500 mb-10">Join a learning community built to help you understand,
+                            improve and grow.</p>
+
+                        <div class="space-y-6 mb-10">
+                            <div class="flex items-start">
+                                <div
+                                    class="w-12 h-12 bg-blue-50 text-brand-blue rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-map-marker-alt text-xl"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-brand-dark text-lg">Address</h5>
+                                    <p class="text-gray-600 mt-1">Commerce Circle<br>Gauri Shankar Mandir Rd, near
+                                        Karnataka Bank & Agroha Bhawan,<br>Raigarh,
+                                        Chhattisgarh, India 496001</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div
+                                    class="w-12 h-12 bg-cyan-50 text-brand-cyan rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-phone-alt text-xl"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-brand-dark text-lg">Phone</h5>
+                                    <p class="text-gray-600 mt-1">9584194194 <br> 9522194194</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start">
+                                <div
+                                    class="w-12 h-12 bg-green-50 text-brand-green rounded-xl flex items-center justify-center mr-4 flex-shrink-0">
+                                    <i class="fas fa-envelope text-xl"></i>
+                                </div>
+                                <div>
+                                    <h5 class="font-bold text-brand-dark text-lg">Email</h5>
+                                    <p class="text-gray-600 mt-1">
+                                        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ccrgh13@gmail.com"
+                                            target="_blank" rel="noopener noreferrer"
+                                            class="text-brand-blue hover:text-brand-cyan font-medium transition">ccrgh13@gmail.com</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="flex flex-col sm:flex-row gap-3 pt-2">
+                            <a href="https://wa.me/9584194194" target="_blank"
+                                class="inline-flex items-center justify-center bg-[#25D366] hover:bg-[#1ebd5a] text-white px-7 py-3.5 rounded-full font-bold shadow-lg shadow-green-200 transition transform hover:-translate-y-1 w-full sm:w-auto">
+                                <i class="fab fa-whatsapp text-xl mr-2"></i> Chat on WhatsApp
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Enquiry Form -->
+                    <div class="bg-white p-8 md:p-10 rounded-3xl shadow-xl border border-gray-100" data-aos="fade-left">
+                        <div class="flex items-center justify-between mb-6">
+                            <h3 class="text-2xl font-bold text-brand-dark">Enquire Now</h3>
+
+                        </div>
+                        <form id="enquiry-form" class="space-y-5">
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Student Name *</label>
+                                    <input type="text" id="student_name" name="Student_Name" required
+                                        class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-brand-blue outline-none transition"
+                                        placeholder="Enter name">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Parent/Guardian
+                                        Name</label>
+                                    <input type="text" id="parent_name" name="Parent_Name"
+                                        class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-brand-blue outline-none transition"
+                                        placeholder="Enter name">
+                                </div>
+                            </div>
+
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-5">
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Phone Number *</label>
+                                    <input type="tel" id="phone_number" name="Phone_Number" required
+                                        class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-brand-blue outline-none transition"
+                                        placeholder="Enter phone">
+                                </div>
+                                <div>
+                                    <label class="block text-sm font-medium text-gray-700 mb-1">Email Address</label>
+                                    <input type="email" id="email_address" name="Email_Address"
+                                        class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-brand-blue outline-none transition"
+                                        placeholder="Enter email">
+                                </div>
+                            </div>
+
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Current Class/Course</label>
+                                <input type="text" id="current_class" name="Current_Class"
+                                    class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-brand-blue outline-none transition"
+                                    placeholder="e.g. Class 11, B.Com">
+                            </div>
+
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Preferred Course *</label>
+                                <select id="preferred_course" name="Preferred_Course" required
+                                    class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-brand-blue outline-none transition">
+                                    <option value="">Select a course...</option>
+                                    <option value="class-11">Class 11 Commerce</option>
+                                    <option value="class-12">Class 12 Commerce</option>
+                                    <option value="ca">CA Preparation</option>
+                                    <option value="cma">CMA Preparation</option>
+                                    <option value="cs">CS Preparation</option>
+                                </select>
+                            </div>
+
+                            <div>
+                                <label class="block text-sm font-medium text-gray-700 mb-1">Message</label>
+                                <textarea id="enquiry_message" name="Message" rows="3"
+                                    class="w-full px-4 py-2.5 bg-gray-50 border border-gray-200 rounded-lg focus:ring-2 focus:ring-brand-blue focus:border-brand-blue outline-none transition resize-none"
+                                    placeholder="How can we help you?"></textarea>
+                            </div>
+
+                            <div>
+                                <button type="submit" id="enquiry-submit-btn"
+                                    class="w-full bg-brand-blue hover:bg-brand-cyan text-white font-bold py-3.5 px-6 rounded-lg shadow-md hover:shadow-lg transition duration-300 flex items-center justify-center space-x-2 group">
+                                    <i
+                                        class="fas fa-paper-plane mr-2 group-hover:translate-x-1 transition-transform"></i>
+                                    <span>Submit Enquiry</span>
+                                </button>
+                                <p
+                                    class="text-xs text-gray-500 text-center mt-2.5 flex items-center justify-center gap-1.5">
+                                    <i class="fas fa-shield-alt text-brand-green"></i> Direct email notification sent to
+                                    <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ccrgh13@gmail.com"
+                                        target="_blank" rel="noopener noreferrer"
+                                        class="font-semibold text-brand-blue hover:underline">ccrgh13@gmail.com</a>
+                                </p>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-brand-dark pt-16 pb-8 border-t-[10px] border-brand-cyan">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 mb-12">
+                    <!-- Brand Info -->
+                    <div class="lg:col-span-1">
+                        <div class="bg-white p-3 rounded-lg inline-block mb-6">
+                            <img src="images/cc2.png" alt="Commerce Circle Logo" class="h-10 w-auto">
+                        </div>
+                        <p class="text-brand-cyan font-heading font-semibold text-xl mb-2">"A Family of Learners"</p>
+                        <p class="text-gray-400 text-sm leading-relaxed mb-6">
+                            Empowering Commerce Students with Knowledge, Guidance & Confidence in Raigarh, Chhattisgarh.
+                        </p>
+                        <div class="flex space-x-4">
+                            <a href="https://www.instagram.com/commerce_circle/"
+                                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-brand-blue transition">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="https://www.facebook.com/CommerceCircleRgh/"
+                                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-brand-blue transition">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="https://www.youtube.com/@commerce_circle"
+                                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-[#FF0000] transition">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ccrgh13@gmail.com" target="_blank"
+                                rel="noopener noreferrer" title="Email Us: ccrgh13@gmail.com"
+                                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-brand-blue transition">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                            <a href="https://wa.me/9584194194" target="_blank" rel="noopener noreferrer"
+                                title="Chat on WhatsApp"
+                                class="w-10 h-10 rounded-full bg-white/10 flex items-center justify-center text-white hover:bg-[#25D366] transition">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <!-- Quick Links -->
+                    <div>
+                        <h4 class="text-white font-bold text-lg mb-6">Quick Links</h4>
+                        <ul class="space-y-3">
+                            <li><a href="#" class="text-gray-400 hover:text-white transition flex items-center"><i
+                                        class="fas fa-angle-right mr-2 text-brand-cyan text-sm"></i> Home</a></li>
+                            <li><a href="#about" class="text-gray-400 hover:text-white transition flex items-center"><i
+                                        class="fas fa-angle-right mr-2 text-brand-cyan text-sm"></i> About</a></li>
+                            <li><a href="#courses"
+                                    class="text-gray-400 hover:text-white transition flex items-center"><i
+                                        class="fas fa-angle-right mr-2 text-brand-cyan text-sm"></i> Courses</a></li>
+                            <li><a href="#why-us" class="text-gray-400 hover:text-white transition flex items-center"><i
+                                        class="fas fa-angle-right mr-2 text-brand-cyan text-sm"></i> Why Us</a></li>
+                            <li><a href="#faculty"
+                                    class="text-gray-400 hover:text-white transition flex items-center"><i
+                                        class="fas fa-angle-right mr-2 text-brand-cyan text-sm"></i> Faculty</a></li>
+                            <li><a href="#results"
+                                    class="text-gray-400 hover:text-white transition flex items-center"><i
+                                        class="fas fa-angle-right mr-2 text-brand-cyan text-sm"></i> Results</a></li>
+                            <li><a href="#contact"
+                                    class="text-gray-400 hover:text-white transition flex items-center"><i
+                                        class="fas fa-angle-right mr-2 text-brand-cyan text-sm"></i> Contact</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Courses Links -->
+                    <div>
+                        <h4 class="text-white font-bold text-lg mb-6">Courses</h4>
+                        <ul class="space-y-3">
+                            <li><a href="#courses"
+                                    class="text-gray-400 hover:text-white transition flex items-center"><i
+                                        class="fas fa-angle-right mr-2 text-brand-cyan text-sm"></i> Class 11
+                                    Commerce</a></li>
+                            <li><a href="#courses"
+                                    class="text-gray-400 hover:text-white transition flex items-center"><i
+                                        class="fas fa-angle-right mr-2 text-brand-cyan text-sm"></i> Class 12
+                                    Commerce</a></li>
+                            <li><a href="#courses"
+                                    class="text-gray-400 hover:text-white transition flex items-center"><i
+                                        class="fas fa-angle-right mr-2 text-brand-cyan text-sm"></i> CA Preparation</a>
+                            </li>
+                            <li><a href="#courses"
+                                    class="text-gray-400 hover:text-white transition flex items-center"><i
+                                        class="fas fa-angle-right mr-2 text-brand-cyan text-sm"></i> CMA Preparation</a>
+                            </li>
+                            <li><a href="#courses"
+                                    class="text-gray-400 hover:text-white transition flex items-center"><i
+                                        class="fas fa-angle-right mr-2 text-brand-cyan text-sm"></i> CS Preparation</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <!-- Contact Info -->
+                    <div>
+                        <h4 class="text-white font-bold text-lg mb-6">Contact Us</h4>
+                        <ul class="space-y-4">
+                            <li class="flex items-start">
+                                <i class="fas fa-map-marker-alt text-brand-cyan mt-1 mr-3"></i>
+                                <span class="text-gray-400">Gauri Shankar Mandir Rd, near Karnataka Bank & Agroha
+                                    Bhawan, Raigarh, Chhattisgarh,
+                                    India 496001</span>
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-phone-alt text-brand-cyan mr-3"></i>
+                                <span class="text-gray-400">9584194194 <br> 9522194194</span>
+
+                            </li>
+                            <li class="flex items-center">
+                                <i class="fas fa-envelope text-brand-cyan mr-3"></i>
+                                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=ccrgh13@gmail.com"
+                                    target="_blank" rel="noopener noreferrer"
+                                    class="text-gray-400 hover:text-white transition">ccrgh13@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="border-t border-white/10 pt-8 mt-8 flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-500 text-sm mb-4 md:mb-0">
+                        &copy; 2026 Commerce Circle. All rights reserved.
+                    </p>
+                    <p class="text-gray-500 text-sm">
+                        Developed by <span class="text-brand-cyan">Jay Dewangan</span>
+                    </p>
+                </div>
+            </div>
+        </footer>
+
+    </main>
+    <!-- END WRAPPER -->
+
+    <!-- Scripts -->
+    <!-- AOS Library for scroll animations -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // Initialize Animate on Scroll
+        AOS.init({
+            once: true,
+            offset: 50,
+            duration: 800,
+            easing: 'ease-out-cubic',
+        });
+
+        // Mobile Menu Toggle Logic
+        const btn = document.getElementById('mobile-menu-btn');
+        const menu = document.getElementById('mobile-menu');
+        const icon = btn.querySelector('i');
+
+        btn.addEventListener('click', () => {
+            menu.classList.toggle('hidden');
+            if (menu.classList.contains('hidden')) {
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            } else {
+                icon.classList.remove('fa-bars');
+                icon.classList.add('fa-times');
+            }
+        });
+
+        // Close mobile menu on link click
+        menu.querySelectorAll('a').forEach(link => {
+            link.addEventListener('click', () => {
+                menu.classList.add('hidden');
+                icon.classList.remove('fa-times');
+                icon.classList.add('fa-bars');
+            });
+        });
+
+        // Hero Section Image Slider Logic
+        const heroSlides = document.querySelectorAll('.hero-slide');
+        const heroDots = document.querySelectorAll('.hero-dot');
+        const heroPrevBtn = document.getElementById('hero-prev');
+        const heroNextBtn = document.getElementById('hero-next');
+        const heroSliderContainer = document.getElementById('hero-slider');
+
+        if (heroSlides.length > 0) {
+            let currentHeroSlide = 0;
+            let heroSlideInterval;
+
+            function showHeroSlide(index) {
+                if (index < 0) index = heroSlides.length - 1;
+                if (index >= heroSlides.length) index = 0;
+
+                heroSlides.forEach((slide, i) => {
+                    if (i === index) {
+                        slide.classList.remove('opacity-0', 'z-0');
+                        slide.classList.add('opacity-100', 'z-10');
+                    } else {
+                        slide.classList.remove('opacity-100', 'z-10');
+                        slide.classList.add('opacity-0', 'z-0');
+                    }
+                });
+
+                heroDots.forEach((dot, i) => {
+                    if (i === index) {
+                        dot.classList.remove('bg-white/50', 'w-2');
+                        dot.classList.add('bg-white', 'w-5');
+                    } else {
+                        dot.classList.remove('bg-white', 'w-5');
+                        dot.classList.add('bg-white/50', 'w-2');
+                    }
+                });
+
+                currentHeroSlide = index;
+            }
+
+            function nextHeroSlide() {
+                showHeroSlide(currentHeroSlide + 1);
+            }
+
+            function prevHeroSlide() {
+                showHeroSlide(currentHeroSlide - 1);
+            }
+
+            function startHeroAutoSlide() {
+                heroSlideInterval = setInterval(nextHeroSlide, 3500);
+            }
+
+            function stopHeroAutoSlide() {
+                clearInterval(heroSlideInterval);
+            }
+
+            if (heroNextBtn) heroNextBtn.addEventListener('click', () => { nextHeroSlide(); stopHeroAutoSlide(); startHeroAutoSlide(); });
+            if (heroPrevBtn) heroPrevBtn.addEventListener('click', () => { prevHeroSlide(); stopHeroAutoSlide(); startHeroAutoSlide(); });
+
+            heroDots.forEach((dot, idx) => {
+                dot.addEventListener('click', () => {
+                    showHeroSlide(idx);
+                    stopHeroAutoSlide();
+                    startHeroAutoSlide();
+                });
+            });
+
+            if (heroSliderContainer) {
+                heroSliderContainer.parentElement.addEventListener('mouseenter', stopHeroAutoSlide);
+                heroSliderContainer.parentElement.addEventListener('mouseleave', startHeroAutoSlide);
+            }
+
+            // Initialize first slide and timer
+            showHeroSlide(0);
+            startHeroAutoSlide();
+        }
+
+        // Enquiry Form Mailto Submission Handler
+        const enquiryForm = document.getElementById('enquiry-form');
+        if (enquiryForm) {
+            enquiryForm.addEventListener('submit', function (e) {
+                e.preventDefault();
+                const nameInput = document.getElementById('student_name');
+                const parentInput = document.getElementById('parent_name');
+                const phoneInput = document.getElementById('phone_number');
+                const emailInput = document.getElementById('email_address');
+                const classInput = document.getElementById('current_class');
+                const courseSelect = document.getElementById('preferred_course');
+                const msgInput = document.getElementById('enquiry_message');
+
+                const name = nameInput ? nameInput.value.trim() : '';
+                const parent = parentInput ? parentInput.value.trim() : '';
+                const phone = phoneInput ? phoneInput.value.trim() : '';
+                const email = emailInput ? emailInput.value.trim() : '';
+                const studentClass = classInput ? classInput.value.trim() : '';
+                const courseText = courseSelect && courseSelect.selectedIndex >= 0 ? courseSelect.options[courseSelect.selectedIndex].text : '';
+                const message = msgInput ? msgInput.value.trim() : '';
+
+                const subject = 'Admission Enquiry - ' + (name || 'Prospective Student') + ' (' + (courseText || 'General') + ')';
+                const body = 'Dear Commerce Circle Team,\n\n' +
+                    'I would like to enquire about admission at Commerce Circle:\n\n' +
+                    '- Student Name: ' + (name || 'N/A') + '\n' +
+                    '- Parent/Guardian Name: ' + (parent || 'N/A') + '\n' +
+                    '- Phone Number: ' + (phone || 'N/A') + '\n' +
+                    '- Email Address: ' + (email || 'N/A') + '\n' +
+                    '- Current Class/Course: ' + (studentClass || 'N/A') + '\n' +
+                    '- Preferred Course: ' + (courseText || 'N/A') + '\n\n' +
+                    'Message / Inquiry:\n' + (message || 'Please provide information regarding fees, batches, and enrollment.') + '\n\n' +
+                    'Sent from Commerce Circle Website Enquiry Form.';
+
+                const gmailUrl = 'https://mail.google.com/mail/?view=cm&fs=1&to=ccrgh13@gmail.com&su=' + encodeURIComponent(subject) + '&body=' + encodeURIComponent(body);
+                window.open(gmailUrl, '_blank');
+            });
+        }
+    </script>
+</body>
+
+</html>
